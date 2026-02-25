@@ -1,0 +1,15 @@
+[package]
+name = "rule30"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = "0.17.3"
+fastrand = "2.3.0"
+rayon = "1.11.0"
+
+[profile.release]
+panic = "abort"
+strip = true
+debug = false
+lto = true
