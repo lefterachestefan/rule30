@@ -6,7 +6,6 @@ edition = "2024"
 [dependencies]
 bevy = { version = "0.18.1", features = ["wayland"] }
 fastrand = "2.3.0"
-rayon = "1.11.0"
 
 [profile.release]
 panic = "abort"
